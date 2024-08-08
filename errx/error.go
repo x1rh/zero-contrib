@@ -3,9 +3,9 @@ package errx
 import (
 	"fmt"
 	"runtime"
-	"zero-contrib/errx/types"
 
 	"github.com/pkg/errors"
+	"github.com/x1rh/zero-contrib/errx/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

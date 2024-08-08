@@ -2,7 +2,8 @@ package zerox
 
 import (
 	"context"
-	"zero-contrib/zerox/interceptorx"
+
+	"github.com/x1rh/zero-contrib/zerox/interceptorx"
 )
 
 type ZeroContext struct {

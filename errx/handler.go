@@ -2,8 +2,8 @@ package errx
 
 import (
 	"net/http"
-	"zero-contrib/errx/types"
 
+	"github.com/x1rh/zero-contrib/errx/types"
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

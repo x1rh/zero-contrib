@@ -3,10 +3,10 @@ package middleware
 import (
 	"fmt"
 	"net/http"
-	"zero-contrib/gwx"
 
 	"github.com/pkg/errors"
 	"github.com/x1rh/gopkg/jwtx"
+	"github.com/x1rh/zero-contrib/gwx"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/rest/httpx"
 )

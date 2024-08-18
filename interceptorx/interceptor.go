@@ -44,9 +44,6 @@ func MetadataInterceptor(ctx context.Context, req interface{}, info *grpc.UnaryS
 			}
 		}
 
-		// ctx = context.WithValue(ctx, "ip", ip)
-		// ctx = context.WithValue(ctx, "app", app)
-		// ctx = context.WithValue(ctx, "uid", uid)
 		ctx = context.WithValue(ctx, IP, ip)
 		ctx = context.WithValue(ctx, APP, app)
 		ctx = context.WithValue(ctx, UID, uid)

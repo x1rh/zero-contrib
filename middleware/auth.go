@@ -26,7 +26,7 @@ func Auth(jwtManager *jwtx.Manager, mapper *gwx.Router) func(http.HandlerFunc) h
 			logx.Debugf("authorization:%s\n", authorization)
 			claims, err := jwtManager.WithApp(app).Verify(authorization)
 			if err != nil {
-				err := errors.Wrap(err, "parse authorization err:")
+				err := errors.Wrap(err, "fail to parse header `authorization`")
 				logx.Error(err)
 				httpx.ErrorCtx(r.Context(), w, err)
 				return

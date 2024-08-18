@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"google.golang.org/protobuf/internal/errors"
+	"github.com/pkg/errors"
 )
 
 type JWT struct {
